@@ -3,7 +3,7 @@
     "name": "initmrd"
   },
   "bugs": {
-    "url": "hhttps://github.com/initMrD/baidu-ocr/issues"
+    "url": "https://github.com/initMrD/baidu-ocr/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
@@ -22,5 +22,5 @@
     "url": "git+https://github.com/initMrD/baidu-ocr.git"
   },
   "typings": "index.d.ts",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
