@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "initmrd"
+  },
+  "bugs": {
+    "url": "hhttps://github.com/initMrD/baidu-ocr/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/initMrD/baidu-ocr#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@initmrd/baidu-ocr",
+  "peerDependencies": {
+    "@ionic-native/core": "^4.2.0",
+    "@angular/core": "*",
+    "rxjs": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initMrD/baidu-ocr.git"
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.3"
+}
