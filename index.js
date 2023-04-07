@@ -1,14 +1,32 @@
-import { __decorate, __extends } from "tslib";
-import { Injectable } from '@angular/core';
-import { IonicNativePlugin, cordova, cordovaPropertyGet, cordovaPropertySet } from '@ionic-native/core';
+import {__decorate, __extends} from "tslib";
+import {Injectable} from '@angular/core';
+import {IonicNativePlugin, cordova, cordovaPropertyGet, cordovaPropertySet} from '@ionic-native/core';
+
 var BaiduOcr = /** @class */ (function (_super) {
     __extends(BaiduOcr, _super);
+
     function BaiduOcr() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    BaiduOcr.prototype.init = function (success,error) { return cordova(this, "init", { "sync": true }, arguments); };
-    BaiduOcr.prototype.destroy = function (success,error) { return cordova(this, "destroy", { "sync": true }, arguments); };
-    BaiduOcr.prototype.scan = function (params,success,error) { return cordova(this, "scan", { "sync": true }, arguments); };
+
+    BaiduOcr.prototype.init = function (success, error) {
+        return cordova(this, "init", {"sync": true}, arguments);
+    };
+    BaiduOcr.prototype.destroy = function (success, error) {
+        return cordova(this, "destroy", {"sync": true}, arguments);
+    };
+    BaiduOcr.prototype.scan = function (params, success, error) {
+        return cordova(this, "scan", {"sync": true}, arguments);
+    };
+    BaiduOcr.prototype.recIDCard = function (params, success, error) {
+        return cordova(this, "recIDCard", {"sync": true}, arguments);
+    };
+    BaiduOcr.prototype.recHighGeneral = function (params, success, error) {
+        return cordova(this, "recHighGeneral", {"sync": true}, arguments);
+    };
+    BaiduOcr.prototype.recDiving = function (params, success, error) {
+        return cordova(this, "recDiving", {"sync": true}, arguments);
+    };
     BaiduOcr.pluginName = "BaiduOcr";
     BaiduOcr.plugin = "cordova-plugin-baidu-ocr";
     BaiduOcr.pluginRef = "BaiduOcr";
@@ -20,4 +38,4 @@ var BaiduOcr = /** @class */ (function (_super) {
     ], BaiduOcr);
     return BaiduOcr;
 }(IonicNativePlugin));
-export { BaiduOcr };
+export {BaiduOcr};
